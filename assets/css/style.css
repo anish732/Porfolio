@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+
 .contact{
     height: 400px;
 }
@@ -10,7 +16,7 @@
     background: slategrey;
 }
 .name{
-    margin-left: 210px;
+    margin-left: 200px;
 }
 .personal{
     font-size: 18px;
@@ -29,4 +35,29 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+@media screen and (max-width: 980px){
+.heading{
+    width: 110%;
+}
+.name{
+    margin-left: 20px;
+}
+}
+@media screen and (max-width: 768px){
+    .heading{
+        width: 110%;
+    }
+    .name{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .heading{
+        width: 110%;
+    }
+    .name{
+        margin-left: 20px;
+    }
 }
