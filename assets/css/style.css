@@ -1,0 +1,32 @@
+.contact{
+    height: 400px;
+}
+.wrap{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+.heading{
+    background: slategrey;
+}
+.name{
+    margin-left: 15px;
+}
+.personal{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.navbar{
+    background-color: slategrey;
+    height: 20px;
+    text-align: center;
+}
+.info{
+    margin-top: 7px;
+}
+.container{
+    background-image: url(blue-abstract.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
