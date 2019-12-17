@@ -55,6 +55,30 @@ a {
   margin-left: 85px;
   color: darkblue;
 }
+.demo {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  margin: 12px;
+  padding: 5px;
+  width: 90px;
+}
+.repo {
+  background-color: navy;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 90px;
+}
+.repo-1 {
+  background-color: navy;
+  color: white;
+  margin-left: 90px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 90px;
+}
+
 @media screen and (max-width: 980px) {
   .heading {
     width: 110%;
