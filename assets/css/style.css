@@ -45,6 +45,16 @@
   margin-top: 200px;
   color: black;
 }
+.link {
+  display: flex;
+  margin-left: 45%;
+}
+.link span {
+  margin-right: 20px;
+}
+span:hover {
+  opacity: 0.6;
+}
 h5 {
   color: darkblue;
 }
@@ -77,6 +87,30 @@ a {
   border-radius: 10px;
   padding: 5px;
   width: 90px;
+}
+img {
+  border-radius: 10px;
+}
+.img-circle {
+  border-radius: 50%;
+  border: wheat 2px solid;
+  height: 310px;
+}
+.pic {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 139px;
+}
+.start {
+  border: 1.5px solid white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background-color: black;
+  color: wheat;
+  margin-top: 28.5%;
+  margin-left: 44%;
+  width: 150px;
 }
 
 @media screen and (max-width: 980px) {
